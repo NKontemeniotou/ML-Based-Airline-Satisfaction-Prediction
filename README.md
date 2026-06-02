@@ -1,18 +1,18 @@
 # ML-Based-Airline-Satisfaction-Prediction
 
-# ✈️ Feature Selection & Model Performance Analysis (Airline Passenger Data)
+# Feature Selection & Model Performance Analysis (Airline Passenger Data)
 
 This project explores how the number of selected features affects model performance using cross-validation scores. The goal is to identify the optimal subset of features that maximizes predictive performance while keeping the model efficient and interpretable.
 
 ---
 
-## 📊 Objective
+## Objective
 
 To evaluate how model performance changes as we incrementally add more features, and to determine the optimal feature set for prediction.
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 The model was evaluated using cross-validation (CV). As more features were added, performance improved and eventually stabilized:
 
@@ -26,12 +26,12 @@ The model was evaluated using cross-validation (CV). As more features were added
 | 15 | 0.9591 |
 | 20+ | ~0.9598 (plateau) |
 
-📌 **Key Insight:**  
+**Key Insight:**  
 Model performance significantly improves up to ~10–15 features, after which it plateaus. This indicates diminishing returns from adding more features.
 
 ---
 
-## 🧠 Selected Features
+## Selected Features
 
 The final selected feature set includes:
 
@@ -58,7 +58,7 @@ The final selected feature set includes:
 
 ---
 
-## 🔍 Key Takeaways
+## Key Takeaways
 
 - Feature selection improves both performance and efficiency
 - Most predictive power is captured within the first ~10–15 features
@@ -67,7 +67,7 @@ The final selected feature set includes:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Python
 - Scikit-learn
@@ -77,7 +77,7 @@ The final selected feature set includes:
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Try different models (Random Forest, XGBoost, Logistic Regression comparison)
 - Feature importance ranking (SHAP / permutation importance)
@@ -86,11 +86,11 @@ The final selected feature set includes:
 
 ---
 
-## 👤 Author
+## Author
 
 Data Analyst | Based in Cyprus  
 Working at Rimes (Financial Data Operations)
 
 ---
 
-⭐ If you find this useful, feel free to explore other projects in my GitHub portfolio.
+If you find this useful, feel free to explore other projects in my GitHub portfolio.
